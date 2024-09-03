@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <div class="container my-5">
+    <h2>Categorías</h2>
+  
+    <div class="row">
+      <div class="col-md-3">
+        <! -- Sección de filtros -->
+        <h5>Filtrar por</h5>
+        <hr>
+        <h6>Precio</h6>
+        <input type="range" class="form-range" id="price-range" min="0" max="10000">
+        <p id="price-range-value">Hasta $10000</p>
+        <hr>
+        <h6>Marca</h6>
+        <div id="brand-filters">
+          </div>
+        <hr>
+        <h6>Calificación</h6>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="rating" id="rating-all" value="0" checked>
+          <label class="form-check-label" for="rating-all">
+            Todas las calificaciones
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="rating" id="rating-4" value="4">
+          <label class="form-check-label" for="rating-4">
+            4 Estrellas y más
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="rating" id="rating-3" value="3">
+          <label class="form-check-label" for="rating-3">
+            3 Estrellas y más
+          </label>
+        </div>
+      </div>
+  
+      <div class="col-md-9">
+        <h3>Productos</h3>
+        <div class="row row-cols-1 row-cols-md-3 g-4" id="product-list">
+          </div>
+      </div>
+    </div>
+  </div>
+</html>

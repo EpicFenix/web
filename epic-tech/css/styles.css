@@ -1,0 +1,100 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0; /* Elimina márgenes predeterminados del cuerpo */
+    padding: 0; /* Elimina rellenos predeterminados del cuerpo */
+  }
+  
+  #app {
+    padding: 20px; /* Agrega un poco de relleno al contenedor principal */
+  }
+  /* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0; 
+    padding: 0; 
+  }
+  
+  /* Estilos para el navbar */
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  /* Estilos para el carrusel */
+  .carousel-item img {
+    height: 500px;
+    object-fit: cover;
+  }
+  
+  /* Estilos para las tarjetas de productos */
+  .product-card {
+    transition: transform 0.3s;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Estilos para el footer */
+  .footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 40px 0;
+  }
+  
+  .footer a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Otros estilos personalizados */
+  /* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0; 
+    padding: 0; 
+  }
+  
+  /* Estilos para el navbar */
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  /* Estilos para el carrusel */
+  .carousel-item img {
+    height: 500px;
+    object-fit: cover;
+  }
+  
+  /* Estilos para las tarjetas de productos */
+  .product-card {
+    transition: transform 0.3s;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Estilos para el footer */
+  .footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 40px 0;
+  }
+  
+  .footer a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Otros estilos personalizados */
+  

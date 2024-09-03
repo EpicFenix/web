@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><div class="container my-5">
+    <div class="row">
+      <div class="col-md-6">
+        <img id="product-image" src="" alt="" class="img-fluid">
+      </div>
+      <div class="col-md-6">
+        <h2 id="product-name"></h2>
+        <p class="text-primary h4" id="product-price"></p>
+        <p id="product-description"></p>
+        <ul id="product-specs">
+        </ul>
+        <button class="btn btn-primary" id="add-to-cart-button">Añadir al Carrito</button>
+      </div>
+    </div>
+  
+    <hr>
+  
+    <section class="mt-5">
+      <h3>Reseñas</h3>
+      <div id="reviews-list">
+        </div>
+  
+      <hr>
+  
+      <h4>Dejar una Reseña</h4>
+      <form id="review-form">
+        <div class="mb-3">
+          <label for="reviewer-name" class="form-label">Tu Nombre</label>
+          <input type="text" class="form-control" id="reviewer-name" required>
+        </div>
+        <div class="mb-3">
+          <label for="review-rating" class="form-label">Calificación</label>
+          <select class="form-select" id="review-rating" required>
+            <option value="5">5 Estrellas</option>
+            <option value="4">4 Estrellas</option>
+            <option value="3">3 Estrellas</option>
+            <option value="2">2 Estrellas</option>
+            <option value="1">1 Estrella</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label for="review-comment" class="form-label">Comentario</label>
+          <textarea class="form-control" id="review-comment" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar Reseña</button>
+      </form>
+    </section>
+  </div>
+</html>
